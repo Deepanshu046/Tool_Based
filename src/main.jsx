@@ -5,14 +5,17 @@ import App from './App.jsx'
 import Counter from './components/Counter.jsx'
 import NameInput from './components/Nameinput.jsx'
 import CounterApp from './components/CounterApp.jsx'
+import BasicList from './components/BasicList.jsx'
+import TailwindCSSTest from './components/TailwindCSSTest.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
     
-    <NameInput/>
-    <CounterApp/>
     
-  </StrictMode>,
+    <BasicList/>
+    {/*<TailwindCSSTest/>*/}
+    
+  </StrictMode>
 )
